@@ -4,12 +4,12 @@
   country code + number, no +, spaces or dashes (India example: 919876543210).
 */
 const SALON_CONFIG = {
-  whatsappNumber: "REPLACE_WITH_WHATSAPP_NUMBER",
-  phoneNumber: "REPLACE_WITH_PHONE_NUMBER",
-  address: "REPLACE_WITH_FULL_SALON_ADDRESS",
-  googleMapsUrl: "REPLACE_WITH_GOOGLE_MAPS_DIRECTIONS_URL",
-  googleReviewsUrl: "REPLACE_WITH_GOOGLE_REVIEW_OR_BUSINESS_PROFILE_URL",
-  openingHours: "REPLACE_WITH_CONFIRMED_OPENING_HOURS"
+  whatsappNumber: "919136976555",
+  phoneNumber: "9136976555",
+  address: "Shantiwan-3, Shop No.1, Raheja Township, Malad (East), Mumbai - 400097
+  googleMapsUrl: "https://www.google.com/maps/dir/?api=1&destination=Shantiwan-3%2C%20Shop%20No.1%2C%20Raheja%20Township%2C%20Malad%20East%2C%20Mumbai%20400097",
+  googleReviewsUrl: "https://g.page/r/CZbIwJqlB2gIEBM/review",
+  openingHours: "Monday - Saturday: 9:00 AM - 11:00 PM\nSunday: 8:00 AM - 11:30 PM"
 };
 
 const isPlaceholder = value => !value || value.startsWith("REPLACE_WITH_");
