@@ -2,147 +2,199 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sizer S10 Unisex Salon — hair, beauty and grooming. Explore services and contact us to book an appointment.">
-  <meta name="theme-color" content="#0c0c0c">
-  <title>Sizer S10 Unisex Salon | Your Style. Your Confidence.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="Sizer S10 Unisex Salon, Malad East, Mumbai. Premium hair, beauty and grooming since 2014.">
+  <title>Sizer S10 Unisex Salon | Malad East</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="announcement">YOUR STYLE. YOUR CONFIDENCE.</div>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Sizer S10 home">
-      <img src="sizer%20s10%20logo.png" alt="Sizer S10 Unisex Salon Logo" class="salon-logo" style="width:55px;height:55px;object-fit:contain;">
-      <span class="brand-name">SIZER <b>S10</b><small>UNISEX SALON</small></span>
+
+  <header class="header">
+    <a href="#home" class="brand">
+      <img src="sizer%20s10%20logo.png" alt="Sizer S10 Salon logo">
+      <span>SIZER S10 <small>UNISEX SALON</small></span>
     </a>
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
-      <a class="button button-small" href="#contact">Book a Visit <span>↗</span></a>
+    <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="#booking" class="nav-book">Book Now</a>
     </nav>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-overlay"></div>
-      <div class="hero-content reveal">
-        <p class="eyebrow"><span></span> SIZER S10 UNISEX SALON · EST. 2014 · MUMBAI</p>
-       <div class="hero-actions">
-          <a class="button" href="#contact">Book an Appointment <span>↗</span></a>
-          <a class="text-link" href="#services">Explore Services <span>↓</span></a>
-        </div>
-        </div>
-      <div class="hero-side-label">SIZER S10 — UNISEX SALON</div>
+      <div class="hero-shade"></div>
+      <a class="hero-book" href="#booking">BOOK AN APPOINTMENT ↗</a>
+      <span class="hero-scroll">SCROLL TO EXPLORE ↓</span>
     </section>
 
-    <section class="intro section-pad">
-      <div class="intro-number">01 <span>/ ABOUT</span></div>
-      <div class="intro-copy reveal">
-        <p class="eyebrow">MORE THAN A HAIRCUT</p>
-        <h2>Make every look<br><em>feel like you.</em></h2>
-      </div>
-      <div class="intro-description reveal">
-        <p>Great style starts with listening. From everyday grooming to a whole new look, our goal is to help you feel confident, comfortable and completely yourself.</p>
-        <a class="text-link" href="#contact">Come say hello <span>↗</span></a>
+    <section class="about section" id="about">
+      <div class="section-label">01 / OUR STORY</div>
+      <div class="about-content">
+        <p class="eyebrow">ESTABLISHED 2014 · MALAD EAST</p>
+        <h2>Where Style Meets <em>Elegance.</em></h2>
+        <p>Welcome to Sizer S10 Unisex Salon, your destination for hair, beauty and grooming in Malad East, Mumbai. Since 2014, we have been dedicated to helping every client discover their individual style.</p>
+        <a href="#booking" class="gold-link">Plan Your Visit ↗</a>
       </div>
     </section>
 
-    <section class="services section-pad" id="services">
-      <div class="section-heading reveal">
-        <div><p class="eyebrow">THE SIZER S10 EXPERIENCE</p><h2>Services made<br><em>for your style.</em></h2></div>
-        <p>Explore our service categories. Contact the salon to confirm available treatments and current prices.</p>
-      </div>
+    <section class="services section" id="services">
+      <div class="section-label">02 / OUR EXPERTISE</div>
+      <p class="eyebrow">THE SIZER EXPERIENCE</p>
+      <h2>Our Signature <em>Services.</em></h2>
+      <p class="section-intro">Explore our grooming and beauty services. Contact us for available treatments and current pricing.</p>
+
       <div class="service-grid">
-        <article class="service-card reveal">
-          <div class="service-icon">✂</div><span class="service-index">01</span>
-          <h3>Haircuts & Styling</h3><p>Fresh cuts, finishing and styling tailored to your look.</p><a href="#contact" class="card-link" data-service="Haircuts & Styling">Enquire about this service <span>↗</span></a>
+        <article class="service-card">
+          <span class="service-number">01</span>
+          <span class="service-icon">✂</span>
+          <h3>Men's Grooming</h3>
+          <p>Haircuts, beard styling and personal grooming.</p>
+          <a href="#booking" data-service="Men's Grooming">Book Service ↗</a>
         </article>
-        <article class="service-card reveal">
-          <div class="service-icon">✦</div><span class="service-index">02</span>
-          <h3>Hair Colour</h3><p>Explore colour options and find a look that suits you.</p><a href="#contact" class="card-link" data-service="Hair Colour">Enquire about this service <span>↗</span></a>
+        <article class="service-card">
+          <span class="service-number">02</span>
+          <span class="service-icon">✦</span>
+          <h3>Women's Hair</h3>
+          <p>Haircuts, styling and hair care consultations.</p>
+          <a href="#booking" data-service="Women's Hair">Book Service ↗</a>
         </article>
-        <article class="service-card reveal">
-          <div class="service-icon">◈</div><span class="service-index">03</span>
-          <h3>Beauty & Skin</h3><p>Ask us about available beauty and skincare services.</p><a href="#contact" class="card-link" data-service="Beauty & Skin">Enquire about this service <span>↗</span></a>
+        <article class="service-card">
+          <span class="service-number">03</span>
+          <span class="service-icon">◇</span>
+          <h3>Hair Colour</h3>
+          <p>Colouring, highlights and personalised looks.</p>
+          <a href="#booking" data-service="Hair Colour">Book Service ↗</a>
         </article>
-        <article class="service-card reveal">
-          <div class="service-icon">◇</div><span class="service-index">04</span>
-          <h3>Grooming & Care</h3><p>Personal grooming services to help you look your best.</p><a href="#contact" class="card-link" data-service="Grooming & Care">Enquire about this service <span>↗</span></a>
+        <article class="service-card">
+          <span class="service-number">04</span>
+          <span class="service-icon">✧</span>
+          <h3>Beauty & Care</h3>
+          <p>Explore our available beauty and care treatments.</p>
+          <a href="#booking" data-service="Beauty & Care">Book Service ↗</a>
         </article>
       </div>
-      <p class="small-note">Service categories are editable placeholders. Confirm the salon’s actual services and prices before publishing.</p>
     </section>
 
-    <section class="statement">
-      <div class="statement-image" role="img" aria-label="Salon styling atmosphere"></div>
-      <div class="statement-copy reveal"><p class="eyebrow">YOUR MOMENT. YOUR LOOK.</p><h2>Confidence is<br><em>always in style.</em></h2><a class="button button-outline" href="#contact">Let’s plan your look <span>↗</span></a></div>
-    </section>
+    <section class="gallery section" id="gallery">
+      <div class="section-label">03 / OUR SPACE</div>
+      <p class="eyebrow">INSIDE SIZER S10</p>
+      <h2>Discover Our <em>Salon.</em></h2>
+      <p class="section-intro">A glimpse inside our salon in Malad East.</p>
 
-    <section class="gallery section-pad" id="gallery">
-      <div class="section-heading reveal">
-        <div><p class="eyebrow">THE LOOKBOOK</p><h2>Style in the<br><em>details.</em></h2></div>
-        <p>Replace these sample images with real photos of your salon, team and finished styles.</p>
-      </div>
       <div class="gallery-grid">
-        <figure class="gallery-item reveal"><img src="IMG_0677.JPG.jpeg" alt="Salon interior and styling stations" loading="lazy"><figcaption><span>01</span> THE SPACE</figcaption></figure>
-        <figure class="gallery-item reveal"><img src="IMG_1249.JPG.jpeg" alt="Professional salon haircut" loading="lazy"><figcaption><span>02</span> THE CRAFT</figcaption></figure>
-        <figure class="gallery-item reveal"><img src="IMG_1250.JPG.jpeg" alt="Hair styling tools and salon work" loading="lazy"><figcaption><span>03</span> THE DETAILS</figcaption></figure>
-      <figure class="gallery-item reveal">
-  <img src="bappa.JPG.jpeg" alt="Lord Ganesha at Sizer S10 Salon" loading="lazy">
-</figure>
+        <figure class="gallery-item">
+          <img src="IMG_1249.JPG.jpeg" alt="Sizer S10 salon interior with styling chairs" loading="lazy">
+          <figcaption>THE SALON</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="IMG_0677.JPG.jpeg" alt="Salon styling chair and illuminated mirror" loading="lazy">
+          <figcaption>THE EXPERIENCE</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="IMG_1250.JPG.jpeg" alt="Salon hair wash station" loading="lazy">
+          <figcaption>THE DETAILS</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="bappa.JPG.jpeg" alt="Lord Ganesha at Sizer S10 Salon" loading="lazy">
+          <figcaption>OUR SPACE</figcaption>
+        </figure>
       </div>
-      <p class="small-note">Sample stock photography shown. Use your own salon photographs for the most authentic presentation.</p>
     </section>
 
-    <section class="reviews section-pad" id="reviews">
-      <div class="reviews-inner reveal">
-        <p class="eyebrow">KIND WORDS, REAL PEOPLE</p>
-        <h2>Your experience<br><em>speaks for itself.</em></h2>
-        <p class="review-copy">We value every customer’s feedback. Visit our Google Business Profile to read genuine reviews and share your experience.</p>
-        <a class="button" id="google-reviews-link" href="#" target="_blank" rel="noopener">Read Google Reviews <span>↗</span></a>
-        <p class="small-note">Add your real Google review/profile URL in <code>script.js</code>. No reviews are fabricated on this website.</p>
-      </div>
-      <div class="review-decoration" aria-hidden="true">“</div>
+    <section class="reviews section" id="reviews">
+      <div class="section-label">04 / CLIENT EXPERIENCES</div>
+      <p class="eyebrow">YOUR WORDS MATTER</p>
+      <h2>Trusted by Our <em>Clients.</em></h2>
+      <p>Read genuine customer feedback and share your salon experience with us on Google.</p>
+      <a class="gold-button" href="https://g.page/r/CZbIwJqlB2gIEBM/review" target="_blank" rel="noopener noreferrer">GOOGLE REVIEWS ↗</a>
     </section>
 
-    <section class="contact section-pad" id="contact">
-      <div class="section-heading reveal">
-        <div><p class="eyebrow">YOUR NEXT LOOK STARTS HERE</p><h2>Let’s get<br><em>you booked.</em></h2></div>
-        <p>Send an appointment enquiry on WhatsApp or contact the salon directly. We’ll confirm availability and pricing with you.</p>
-      </div>
+    <section class="booking section" id="booking">
+      <div class="section-label">05 / RESERVATIONS</div>
+      <p class="eyebrow">YOUR NEXT VISIT</p>
+      <h2>Reserve Your <em>Experience.</em></h2>
+      <p class="section-intro">Submit your appointment request on WhatsApp. Our team will confirm availability before your booking is final.</p>
+
+      <form id="booking-form" class="booking-form">
+        <label for="customer-name">Full Name</label>
+        <input id="customer-name" name="name" type="text" placeholder="Your name" required>
+
+        <label for="customer-phone">Phone Number</label>
+        <input id="customer-phone" name="phone" type="tel" inputmode="tel" placeholder="Your phone number" required>
+
+        <label for="service-choice">Select Service</label>
+        <select id="service-choice" name="service" required>
+          <option value="">Choose a service</option>
+          <option>Men's Grooming</option>
+          <option>Women's Hair</option>
+          <option>Hair Colour</option>
+          <option>Beauty & Care</option>
+          <option>Other / Consultation</option>
+        </select>
+
+        <label for="preferred-date">Preferred Date</label>
+        <input id="preferred-date" name="date" type="date" required>
+
+        <label for="preferred-time">Preferred Time</label>
+        <input id="preferred-time" name="time" type="time" required>
+
+        <label for="customer-message">Special Request (Optional)</label>
+        <textarea id="customer-message" name="message" rows="3" placeholder="Any additional details"></textarea>
+
+        <button type="submit" class="gold-button">REQUEST ON WHATSAPP ↗</button>
+        <p class="form-note">This form opens WhatsApp with your request. Your appointment is confirmed only after the salon approves it.</p>
+      </form>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-label">06 / FIND US</div>
+      <p class="eyebrow">WE LOOK FORWARD TO SEEING YOU</p>
+      <h2>Visit <em>Sizer S10.</em></h2>
+
       <div class="contact-grid">
-        <div class="contact-details reveal">
-          <div class="contact-item"><span class="contact-symbol">↗</span><div><h3>Visit Us</h3><p id="salon-address">Add your complete salon address in script.js</p><a id="directions-link" href="#" target="_blank" rel="noopener">Get directions ↗</a></div></div>
-          <div class="contact-item"><span class="contact-symbol">⌕</span><div><h3>Call the Salon</h3><p id="salon-phone">Add your salon phone number in script.js</p><a id="call-link" href="#">Call now ↗</a></div></div>
-          <div class="contact-item"><span class="contact-symbol">◷</span><div><h3>Opening Hours</h3><p id="salon-hours">Please contact us to confirm today’s hours.</p></div></div>
+        <div class="contact-info">
+          <h3>Our Address</h3>
+          <p>Shantiwan-3, Shop No.1, Raheja Township, Malad (East), Mumbai - 400097</p>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Shantiwan-3%2C%20Shop%20No.1%2C%20Raheja%20Township%2C%20Malad%20East%2C%20Mumbai%20400097" target="_blank" rel="noopener noreferrer">GET DIRECTIONS ↗</a>
+
+          <h3>Contact</h3>
+          <p><a href="tel:+919136976555">+91 91369 76555</a></p>
+
+          <h3>Opening Hours</h3>
+          <p>Monday – Saturday: 9:00 AM – 11:00 PM</p>
+          <p>Sunday: 8:00 AM – 11:30 PM</p>
+
+          <h3>Follow Us</h3>
+          <a href="https://www.instagram.com/sizers10salon/" target="_blank" rel="noopener noreferrer">@sizers10salon ↗</a>
         </div>
-        <form class="booking-form reveal" id="booking-form">
-          <p class="eyebrow">APPOINTMENT ENQUIRY</p>
-          <label for="customer-name">Your name</label><input id="customer-name" name="name" type="text" placeholder="Enter your name" required>
-          <label for="customer-phone">Your phone number</label><input id="customer-phone" name="phone" type="tel" placeholder="Enter your number" required>
-          <label for="service-choice">Service you’re interested in</label>
-          <select id="service-choice" name="service" required>
-            <option value="">Choose a service</option><option>Haircuts & Styling</option><option>Hair Colour</option><option>Beauty & Skin</option><option>Grooming & Care</option><option>Other / Need advice</option>
-          </select>
-          <label for="preferred-date">Preferred date (optional)</label><input id="preferred-date" name="date" type="date">
-          <label for="customer-message">Anything else? (optional)</label><textarea id="customer-message" name="message" rows="3" placeholder="Tell us what you have in mind"></textarea>
-          <button class="button form-submit" type="submit">Send on WhatsApp <span>↗</span></button>
-          <p class="form-hint">This opens WhatsApp with your enquiry. Your appointment is not confirmed until the salon replies.</p>
-        </form>
+        <div class="map-frame">
+          <iframe title="Sizer S10 Salon location map" src="https://www.google.com/maps?q=Shantiwan-3%20Raheja%20Township%20Malad%20East%20Mumbai&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <a class="brand" href="#home"><span class="brand-mark">S10</span><span class="brand-name">SIZER <b>S10</b><small>UNISEX SALON</small></span></a>
-    <p>YOUR STYLE. YOUR CONFIDENCE.</p>
-    <a href="#home" class="back-top">Back to top ↑</a>
-    <div class="footer-bottom"><span>© <span id="year"></span> Sizer S10 Unisex Salon</span><span>Made for your next great look.</span></div>
+    <img src="sizer%20s10%20logo.png" alt="Sizer S10 logo">
+    <p>SIZER S10 UNISEX SALON</p>
+    <span>EST. 2014 · MALAD EAST · MUMBAI</span>
+    <div class="footer-bottom">
+      <small>© <span id="year">2026</span> Sizer S10 Unisex Salon. All rights reserved.</small>
+      <a href="#home">BACK TO TOP ↑</a>
+    </div>
   </footer>
-  <a class="floating-whatsapp" id="floating-whatsapp" href="#" target="_blank" rel="noopener" aria-label="Chat with Sizer S10 on WhatsApp">WA</a>
+
+  <a class="floating-whatsapp" href="https://wa.me/919136976555" target="_blank" rel="noopener noreferrer" aria-label="Chat with salon on WhatsApp">WA</a>
   <script src="script.js"></script>
 </body>
 </html>
