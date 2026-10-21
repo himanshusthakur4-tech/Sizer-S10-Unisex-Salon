@@ -43,8 +43,10 @@ body {
 }
 
 .hero {
-  min-height: 90vh;
-  background-position: center;
+    min-height: 90vh;
+    background-image: url("IMG_1249.JPG.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-overlay {
