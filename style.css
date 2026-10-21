@@ -3,3 +3,157 @@
 @media(max-width:760px){.announcement{font-size:.57rem}.site-header{height:75px}.brand-mark{width:41px;height:41px}.brand-name{font-size:.8rem}.menu-toggle{display:block}.nav{display:none;position:absolute;top:75px;left:0;right:0;padding:20px 6vw 25px;background:#10100f;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}.nav.open{display:flex}.nav>a:not(.button){padding:13px 0;border-bottom:1px solid rgba(255,255,255,.07)}.nav .button{margin-top:15px;justify-content:center}.hero{min-height:620px;padding:70px 7vw;background-position:58% center}.hero-overlay{background:linear-gradient(90deg,rgba(7,7,7,.91),rgba(7,7,7,.52)),linear-gradient(0deg,rgba(7,7,7,.4),transparent)}h1{font-size:clamp(3.2rem,15vw,5.1rem)}.hero-copy{font-size:.9rem}.hero-actions{gap:20px;flex-wrap:wrap}.hero-actions .button{padding:14px 15px}.hero-note{margin-top:55px}.hero-side-label{display:none}.section-pad{padding:72px 6vw}.intro{grid-template-columns:1fr;gap:20px}.intro-number{order:0}.intro-copy{order:1}.intro-description{order:2}.section-heading{display:block;margin-bottom:35px}.section-heading>p{margin-top:22px}.service-grid{grid-template-columns:1fr 1fr;gap:10px}.service-card{padding:22px 16px;min-height:270px}.service-card h3{font-size:1.15rem}.service-card p{font-size:.75rem;min-height:92px}.card-link{font-size:.65rem}.statement{grid-template-columns:1fr}.statement-image{min-height:280px}.statement-copy{padding:55px 7vw 65px}.gallery-grid{grid-template-columns:1fr 1fr;gap:10px}.gallery-large{grid-column:1/-1}.gallery-item img,.gallery-large img{height:235px}.gallery-large img{height:290px}.contact-grid{grid-template-columns:1fr;gap:35px}.booking-form{padding:25px 20px}.footer{grid-template-columns:1fr auto;gap:20px}.footer>p{grid-column:1/-1;grid-row:2}.back-top{grid-column:2;grid-row:1}.footer-bottom{font-size:.62rem;gap:15px}.floating-whatsapp{right:15px;bottom:15px;width:50px;height:50px}}
 @media(max-width:390px){.service-grid{grid-template-columns:1fr}.service-card{min-height:auto}.service-card p{min-height:0}.gallery-grid{grid-template-columns:1fr}.gallery-large{grid-column:auto}.gallery-item img,.gallery-large img{height:250px}.hero-actions{align-items:flex-start;flex-direction:column}.footer-bottom{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+/* SIZER S10 — ULTRA LUXURY DESIGN */
+
+:root {
+  --bg: #080808;
+  --panel: #101010;
+  --panel2: #15120e;
+  --gold: #c9a66b;
+  --gold-light: #efd6a4;
+  --text: #f5f0e8;
+  --muted: #aaa49b;
+  --line: rgba(201, 166, 107, 0.25);
+}
+
+body {
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+.site-header {
+  background: rgba(8, 8, 8, 0.94);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 8px 35px rgba(0, 0, 0, 0.25);
+}
+
+.salon-logo {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  display: block;
+}
+
+.nav a {
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: var(--gold-light);
+}
+
+.hero {
+  min-height: 90vh;
+  background-position: center;
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.96) 0%,
+    rgba(0, 0, 0, 0.75) 48%,
+    rgba(0, 0, 0, 0.28) 100%
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: clamp(3.5rem, 7vw, 7rem);
+  letter-spacing: -0.045em;
+}
+
+.hero h1 em,
+h2 em {
+  color: var(--gold-light);
+}
+
+.button {
+  background: linear-gradient(
+    135deg,
+    #b58a4b,
+    #efd6a4,
+    #c9a66b
+  );
+  border: 1px solid var(--gold);
+  color: #101010;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #f0d8a8;
+  box-shadow: 0 8px 28px rgba(201, 166, 107, 0.22);
+  transform: translateY(-3px);
+}
+
+.service-card {
+  background: linear-gradient(
+    145deg,
+    #1a1713,
+    #0c0c0c
+  );
+  border: 1px solid var(--line);
+  transition: all 0.35s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-7px);
+  border-color: var(--gold);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.4);
+}
+
+.gallery-item img {
+  filter: brightness(0.85) saturate(0.8);
+}
+
+.gallery-item:hover img {
+  filter: brightness(1) saturate(1);
+}
+
+.booking-form {
+  background: linear-gradient(
+    145deg,
+    #1c1813,
+    #0d0d0d
+  );
+  border: 1px solid var(--gold);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  border-radius: 4px;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  box-shadow: 0 0 0 2px rgba(201, 166, 107, 0.12);
+}
+
+@media (max-width: 760px) {
+  .salon-logo {
+    width: 43px;
+    height: 43px;
+  }
+
+  .hero {
+    min-height: 80vh;
+  }
+
+  .hero h1 {
+    font-size: clamp(3rem, 12vw, 5rem);
+  }
+
+  .hero-overlay {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.93),
+      rgba(0, 0, 0, 0.58)
+    );
+  }
+}
