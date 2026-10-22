@@ -866,4 +866,31 @@ h2 em,
   -webkit-text-fill-color: transparent;
   filter: none;
 }
+/* SIZER S.10 — FINAL GOLD DESIGN */
+
+/* Upper logo: smaller 10 */
+.brand-number {
+  font-size: 0.68em;
+  vertical-align: baseline;
+}
+
+/* Lower heading: rich metallic gold */
+.hero-title {
+  background: linear-gradient(
+    180deg,
+    #fff0a0 0%,
+    #ffd044 30%,
+    #e9a820 65%,
+    #c78516 100%
+  ) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  filter: none !important;
+}
+
+/* Keep lower 10 smaller */
+.hero-number {
+  font-size: 0.68em;
+}
 
