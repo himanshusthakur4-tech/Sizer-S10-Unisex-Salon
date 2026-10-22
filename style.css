@@ -806,3 +806,44 @@ h2 em,
 .nav .nav-book {
   border-color: #ffd34a;
 }
+/* HOMEPAGE — Sizer S.10 */
+
+.hero::before {
+  content: none !important;
+}
+
+.hero-title {
+  position: absolute;
+  left: 7%;
+  bottom: 22%;
+  margin: 0;
+  z-index: 2;
+  font-family: "Cinzel", Georgia, serif;
+  font-size: clamp(58px, 11vw, 180px);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  white-space: nowrap;
+  background: linear-gradient(
+    180deg,
+    #fff6cc 0%,
+    #f6d98b 35%,
+    #c99743 65%,
+    #8c612d 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-number {
+  font-size: 0.68em;
+  letter-spacing: -0.03em;
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: clamp(40px, 10vw, 65px);
+    bottom: 27%;
+  }
+}
