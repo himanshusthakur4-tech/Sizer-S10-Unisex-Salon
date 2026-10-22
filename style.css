@@ -727,3 +727,84 @@ p {
     animation-duration: .01ms !important;
   }
 }
+/* SIZER S10 — ROYAL METALLIC GOLD */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&display=swap');
+
+:root {
+  --gold: #ffca28;
+  --light-gold: #ffe68a;
+  --border: rgba(255, 190, 0, 0.3);
+}
+
+/* Metallic gold main headings */
+h2,
+.service-card h3,
+.footer > p,
+.brand {
+  font-family: "Cinzel", Georgia, serif;
+  font-weight: 900;
+  background: linear-gradient(
+    180deg,
+    #fff8b5 0%,
+    #ffd34a 17%,
+    #fff3a0 30%,
+    #ffb900 45%,
+    #9b4a00 57%,
+    #ffcf24 70%,
+    #fff3a2 84%,
+    #b96a00 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(1px 2px 1px #603000);
+}
+
+/* Hero title */
+.hero::before {
+  font-family: "Cinzel", Georgia, serif;
+  font-weight: 900;
+  background: linear-gradient(
+    180deg,
+    #fff7ad,
+    #ffc400 35%,
+    #a95100 55%,
+    #ffdc45 75%,
+    #b76a00
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 4px 2px #381900);
+}
+
+/* Gold accent text */
+h2 em,
+.eyebrow,
+.section-label,
+.gold-link,
+.service-card a,
+.contact-info a {
+  color: #ffd34a;
+}
+
+/* Metallic buttons */
+.gold-button {
+  background: linear-gradient(
+    135deg,
+    #fff1a0,
+    #ffc400 35%,
+    #d98a00 65%,
+    #ffe16b
+  );
+  border: 1px solid #ffe38a;
+  color: #160d00;
+  box-shadow: 0 3px 15px rgba(255, 185, 0, 0.2);
+}
+
+/* Gold borders */
+.service-card:hover,
+.nav .nav-book {
+  border-color: #ffd34a;
+}
