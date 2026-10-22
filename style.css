@@ -852,3 +852,18 @@ h2 em,
   content: none !important;
   display: none !important;
 }
+/* Rich gold for homepage heading */
+.hero-title {
+  background: linear-gradient(
+    180deg,
+    #fff4b0 0%,
+    #ffd65a 35%,
+    #e5a928 70%,
+    #c78b20 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: none;
+}
+
