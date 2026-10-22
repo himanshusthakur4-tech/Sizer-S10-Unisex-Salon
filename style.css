@@ -847,3 +847,8 @@ h2 em,
     bottom: 27%;
   }
 }
+/* Hide duplicate hero heading */
+.hero::before {
+  content: none !important;
+  display: none !important;
+}
