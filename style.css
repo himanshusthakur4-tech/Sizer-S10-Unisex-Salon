@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&display=swap');
 /* SIZER S10 — LUXURY BLACK & GOLD */
 
 :root {
@@ -728,9 +729,6 @@ p {
   }
 }
 /* SIZER S10 — ROYAL METALLIC GOLD */
-
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&display=swap');
-
 :root {
   --gold: #ffca28;
   --light-gold: #ffe68a;
