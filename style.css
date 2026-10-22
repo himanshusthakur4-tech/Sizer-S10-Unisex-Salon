@@ -806,32 +806,3 @@ h2 em,
 .nav .nav-book {
   border-color: #ffd34a;
 }
-/* SIZER S10 — EXTRA 3D GOLD SHINE */
-
-h2,
-.service-card h3,
-.footer > p,
-.brand,
-.hero::before {
-  background-image: linear-gradient(
-    180deg,
-    #fffde0 0%,
-    #fff19b 12%,
-    #ffcb19 25%,
-    #fff6ad 35%,
-    #e99a00 47%,
-    #8c3b00 54%,
-    #ffb900 65%,
-    #fff4a1 78%,
-    #d17b00 90%,
-    #713000 100%
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter:
-    drop-shadow(0 1px 0 #fff1a0)
-    drop-shadow(1px 2px 0 #9c4a00)
-    drop-shadow(2px 3px 0 #512200)
-    drop-shadow(3px 5px 3px rgba(0,0,0,.65));
-}
