@@ -1010,26 +1010,13 @@ h2 em,
   height: auto;
   object-fit: contain;
 }
-/* Align About and Services section labels */
-.about > .section-label {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto 35px;
-  align-self: center;
-}
-
-.services > .section-label {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto 35px;
-}
-/* Left-align both section labels */
+/* Same left alignment for all section labels */
 .about > .section-label,
-.services > .section-label {
+.services > .section-label,
+.gallery > .section-label {
   width: 100%;
-  max-width: none;
-  margin-left: 0;
-  margin-right: 0;
-  align-self: flex-start;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
 }
