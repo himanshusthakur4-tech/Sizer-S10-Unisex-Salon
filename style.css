@@ -1001,3 +1001,12 @@ h2 em,
     grid-template-columns: 1fr;
   }
 }
+.about-photo {
+  height: auto;
+}
+
+.about-photo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
