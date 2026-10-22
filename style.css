@@ -163,7 +163,7 @@ p {
 }
 
 .hero::before {
-  content: "SIZER S10";
+  content: "SIZER S.10";
   position: absolute;
   left: 7%;
   bottom: 22%;
