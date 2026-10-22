@@ -952,3 +952,9 @@ h2 em,
     height: 300px;
   }
 }
+/* About section desktop layout fix */
+@media (min-width: 769px) {
+  .about {
+    grid-template-columns: 1fr 1fr;
+  }
+}
