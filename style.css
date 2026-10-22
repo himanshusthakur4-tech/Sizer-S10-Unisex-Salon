@@ -1010,3 +1010,16 @@ h2 em,
   height: auto;
   object-fit: contain;
 }
+/* Align About and Services section labels */
+.about > .section-label {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 35px;
+  align-self: center;
+}
+
+.services > .section-label {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 35px;
+}
