@@ -958,3 +958,19 @@ h2 em,
     grid-template-columns: 1fr 1fr;
   }
 }
+/* About section layout fix */
+@media (min-width: 769px) {
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .about-photo {
+    grid-column: 2;
+    grid-row: 1 / 5;
+  }
+}
